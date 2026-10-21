@@ -17,9 +17,10 @@ Trabajo grupal. Mi enfoque principal estuvo en el **feature engineering**, la **
 - Se construyó un modelo de regresión polinomial con un **R² ajustado de 0.707**.
 - El modelo logró predecir con éxito los resultados de la temporada 2024.
 
-## 📊 Estructura de los Datos
+## Estructura de los Datos
 El dataset relacional cuenta con las siguientes tablas y claves:
 
+```mermaid
 erDiagram
     QUALIFYING {
         int RaceId FK
