@@ -20,10 +20,7 @@ Trabajo grupal. Mi enfoque principal estuvo en el **feature engineering**, la **
 ## 📊 Estructura de los Datos
 El dataset relacional cuenta con las siguientes tablas y claves:
 
-```mermaid
 erDiagram
-    %% Definición de Entidades y Atributos
-
     QUALIFYING {
         int RaceId FK
         int DriverId FK
@@ -82,8 +79,6 @@ erDiagram
         string CircuitRef
     }
 
-    %% Definición de las Relaciones (Claves Foráneas)
-
     RESULTS }o--|| RACES : "RaceId"
     RESULTS }o--|| DRIVERS : "DriverID"
     RESULTS }o--|| CONSTRUCTORS : "ConstructorID"
@@ -94,6 +89,3 @@ erDiagram
     QUALIFYING }o--|| CONSTRUCTORS : "ConstructorID"
 
     RACES }o--|| CIRCUITS : "CircuitID"
-        int DriverId FK
-    }
-    %% ... (resto de las tablas)
