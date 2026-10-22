@@ -5,9 +5,6 @@ Proyecto académico enfocado en el análisis de datos históricos de Fórmula 1 
 ## Problema
 Identificar qué factores (clima, circuito, piloto, constructor) tienen mayor impacto en el rendimiento y construir un modelo estadístico capaz de predecir los puntos de una carrera.
 
-## Mi Aporte
-Trabajo grupal. Mi enfoque principal estuvo en el **feature engineering**, la **evaluación de interacciones entre variables** y el diseño del enfoque estadístico.
-
 ## Herramientas Utilizadas
 - **Lenguaje:** R
 - **Librerías:** ggplot2, dplyr, stats (Regresión polinomial)
